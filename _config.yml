@@ -38,7 +38,7 @@ sass:
   style: compressed
 
 ############################################################
-permalink: /:year/:month/:title
+permalink: /:title/:year-:month-:day
 #permalink: pretty
 
 ############################################################
@@ -47,7 +47,7 @@ permalink: /:year/:month/:title
 # Pagination Settings
 pagination:
   enabled: true
-  per_page: 2
+  per_page: 5
   permalink: '/page/:num/'
   title: ' - page :num'
   limit: 0
